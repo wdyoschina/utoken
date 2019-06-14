@@ -84,7 +84,7 @@
         </van-row>
       </div>
       <div class="qrcode-parent">
-        <qrcode class="qrcode" :value="`https://etherscan.io/tx/${item.txHash}`" :options="{ size: 80 }"></qrcode>
+        <!--<qrcode class="qrcode" :value="`https://etherscan.io/tx/${item.txHash}`" :options="{ size: 80 }"></qrcode>-->
       </div>
     </pl-block>
     <br>
@@ -92,9 +92,9 @@
   </div>
 </template>
 <script>
-  import qrcode from '@xkeshi/vue-qrcode';
+  //import qrcode from '@xkeshi/vue-qrcode';
   export default{
-    components: {qrcode},
+    //components: {qrcode},
     props: {
       item: {
         type: Object,
